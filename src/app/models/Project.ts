@@ -1,8 +1,10 @@
 export interface Project {
-  id: number,
+  id: string,
   title: string,
   image: string,
   skillsHighlight: string,
   info: string,
-  javascript?: boolean
+  javascript?: boolean,
+  htmlcss?: boolean,
+  java?: boolean
 }

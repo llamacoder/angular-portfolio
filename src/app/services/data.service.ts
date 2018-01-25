@@ -9,7 +9,7 @@ export class DataService {
   constructor() {
     this.projects = [
       {
-        id: 1,
+        id: '1',
         title: 'Tracey Made (this site)',
         image: '../../assets/TraceyMadeSite.png',
         skillsHighlight: 'Python, Django, Javascript, HTML, CSS, Heroku, SQLite3, Materialize, Responsive Design',
@@ -17,7 +17,7 @@ export class DataService {
         javascript: true
       },
       {
-        id: 2,
+        id: '2',
         title: 'Boomtown Showcase',
         image: '../../assets/Boomtown.png',
         skillsHighlight: 'Materialize, HTML, CSS, Javascript, jQuery, Responsive Design, Mocha, Chai',
@@ -25,7 +25,7 @@ export class DataService {
         javascript: true
       },
       {
-        id: 3,
+        id: '3',
         title: 'Broken Fence Studios Website',
         image: '../../assets/BFS.png',
         skillsHighlight: 'Photoshop, HTML, CSS, Premiere, Album Design, Video Production, After Effects',
@@ -33,7 +33,7 @@ export class DataService {
         javascript: false
       },
       {
-        id: 4,
+        id: '4',
         title: 'Promotional Videos',
         image: '../../assets/BFSPromo.png',
         skillsHighlight: 'After Effects, Premiere, Photoshop, Design Skills, Video Production Skills',
@@ -41,7 +41,7 @@ export class DataService {
         javascript: false
       },
       {
-        id: 5,
+        id: '5',
         title: 'Pixel Art',
         image: '../../assets/PixelArt.png',
         skillsHighlight: 'HTML, CSS, Materialize, GitHub',
@@ -49,7 +49,7 @@ export class DataService {
         javascript: false
       },
       {
-        id: 6,
+        id: '6',
         title: 'Custom Videos',
         image: '../../assets/GraduationVideo.png',
         skillsHighlight: 'Premiere, After Effects, Photoshop, Design Skills, Video Production Skills',
@@ -57,7 +57,7 @@ export class DataService {
         javascript: false
       },
       {
-        id: 7,
+        id: '7',
         title: 'Digital Futures Initiative',
         image: '../../assets/DFI.png',
         skillsHighlight: 'Premiere, Video Production, Design',
@@ -65,7 +65,7 @@ export class DataService {
         javascript: false
       },
       {
-        id: 8,
+        id: '8',
         title: 'Galvanize Delivers',
         image: '../../assets/GalvanizeDelivers.png',
         skillsHighlight: 'HTML, CSS, Materialize, Responsive Design',
@@ -73,15 +73,15 @@ export class DataService {
         javascript: false
       },
       {
-        id: 9,
+        id: '9',
         title: 'Fairview Band Silent Auction Promo Video',
         image: '../../assets/SilentAuction.png',
         skillsHighlight: 'Premiere, After Effects, Photoshop, Video Production',
         info: "A really good long description of the portfolio project goes here",
         javascript: false
-      }
+      },
       {
-        id: 10,
+        id: '10',
         title: 'Promotional Album - Hotel Boulderado',
         image: '../../assets/boulderadoHotel.png',
         skillsHighlight: 'Photoshop, Album Design, Design Skills',
@@ -89,7 +89,7 @@ export class DataService {
         javascript: false
       },
       {
-        id: 11,
+        id: '11',
         title: 'Album Design',
         image: '../../assets/albumDesign.png',
         skillsHighlight: 'Photoshop, Album Design, Design Skills',
@@ -97,7 +97,7 @@ export class DataService {
         javascript: false
       },
       {
-        id: 12,
+        id: '12',
         title: 'Music Mom Website',
         image: '../../assets/MusicMom.png',
         skillsHighlight: 'HTML, CSS, Photoshop',

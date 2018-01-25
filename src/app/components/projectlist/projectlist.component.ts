@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { DataService } from '../../services/data.service';
+import { ProjectService } from '../../services/project.service';
 import { Project } from '../../models/Project';
 
 @Component({
@@ -12,10 +12,11 @@ export class ProjectlistComponent implements OnInit {
   projects: Project[];
   loaded: boolean = false;
 
-  constructor(private dataService: DataService) { }
+  constructor(private projectService: ProjectService) { }
 
   ngOnInit() {
-    this.projects = this.dataService.getProjects();
+    this.projectService.getProjects().subscribe(projects =>
+      this.projects = projects);
     this.loaded = true;
   }
 
