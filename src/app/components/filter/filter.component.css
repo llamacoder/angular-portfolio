@@ -1,0 +1,17 @@
+.filter-div {
+  min-height: 500px;
+  border:2px solid gainsboro;
+}
+
+h5 {
+  margin: 10px;
+  font-size: 15px;
+}
+
+.form-check {
+  font-size: 11px;
+}
+
+.form-check-input {
+  margin-top: 2px;
+}

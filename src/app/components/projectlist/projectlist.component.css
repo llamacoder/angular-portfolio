@@ -1,0 +1,13 @@
+.card-footer{
+  position:absolute;
+  left: 0;
+  bottom:0;
+  width:100%;
+}
+.card-deck .card{
+  padding-bottom:50px;
+}
+
+p {
+  font-size: 12px;
+}

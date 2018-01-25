@@ -1,0 +1,22 @@
+<nav class="navbar navbar-expand navbar-dark bg-danger mb-4">
+  <div class="container">
+    <a routerLink="/" class="navbar-brand">Portfolio Project</a>
+    <div>
+      <ul class="navbar nav ml-auto">
+        <li class="nav-item"  >
+          <a routerLink='/' routerLinkActive="active"
+              [routerLinkActiveOptions]="{exact: true}" class="nav-link ">Home</a>
+        </li>
+        <li class="nav-item" [routerLinkActive]="['active']"
+            [routerLinkActiveOptions]="{exact: true}" >
+          <a routerLink='/projectpage' class="nav-link ">Projects</a>
+        </li>
+        <li class="nav-item" [routerLinkActive]="['active']"
+            [routerLinkActiveOptions]="{exact: true}" >
+          <a routerLink='/resume' class="nav-link " >Resume</a>
+        </li>
+      </ul>
+
+    </div>
+  </div>
+</nav>
