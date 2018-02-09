@@ -6,5 +6,6 @@ export interface Project {
   info: string,
   javascript?: boolean,
   htmlcss?: boolean,
-  java?: boolean
+  java?: boolean,
+  url?: string
 }

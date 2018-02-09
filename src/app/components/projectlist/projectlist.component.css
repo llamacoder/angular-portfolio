@@ -8,6 +8,27 @@
   padding-bottom:50px;
 }
 
+.project-title {
+  font-size: 0.8em;
+  font-weight: bold;
+}
+
+.project-card {
+  margin-left: 5px;
+  margin-right: 5px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.project-block {
+  padding: 5px;
+}
+
 p {
   font-size: 12px;
+}
+
+span {
+  font-size: 11px;
+  color: teal;
 }

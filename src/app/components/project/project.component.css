@@ -3,3 +3,12 @@
   width: 200px;
   border:2px solid red;
 }
+
+img {
+  max-width: 200px;
+  float: right;
+}
+
+a {
+  color: teal;
+}

@@ -25,4 +25,20 @@ export class ProjectService {
     return this.projects;
   }
 
+  getProject(id: string): Observable<Project> {
+    this.projectDoc = this.afs.doc<Project>(`projects/${id}`);
+    this.project = this.projectDoc.snapshotChanges().map(action => {
+      if(action.payload.exists === false) {
+        return null;
+      } else {
+        const data = action.payload.data() as Project;
+        data.id = action.payload.id;
+        return data;
+      }
+    });
+
+    return this.project;
+  }
+
+
 }
